@@ -25,8 +25,7 @@
   }
   
   function onResize() {
-    const size = Math.min(window.innerWidth, window.innerHeight)
-    bigNode.style.fontSize = `${size - 100}px`
-    bigNode.style.lineHeight = `${size + 100}px`
+    bigNode.style.fontSize = `${Math.min(window.innerWidth, window.innerHeight) - 100}px`
+    bigNode.style.lineHeight = `${window.innerHeight}px`
   }
 })()
