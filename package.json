@@ -1,0 +1,14 @@
+{
+  "name": "emojis",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "fs-extra": "^9.0.0"
+  }
+}
