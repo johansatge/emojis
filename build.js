@@ -11,6 +11,7 @@ const distDir = path.join(__dirname, '.dist')
     await fs.copy('styles.css', path.join(distDir, 'styles.css'))
     await fs.copy('ui.js', path.join(distDir, 'ui.js'))
     await fs.copy('_headers', path.join(distDir, '_headers'))
+    await fs.copy('404.html', path.join(distDir, '404.html'))
   }
   catch (error) {
     console.log(`Build error (${error.message})`)
